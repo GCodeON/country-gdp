@@ -16,12 +16,13 @@
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.country-list {
+  padding: 15px 10px;
+  border: 2px solid black;
+  border-radius: 5px;
 }
+
+.countries:focus {
+  outline: none;
+}
+
