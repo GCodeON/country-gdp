@@ -14,7 +14,7 @@ export default async function Home() {
   const countryList = data.sort((a,b) => (a.name.common > b.name.common) ? 1 : ((b.name.common > a.name.common) ? -1 : 0))
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center p-24">
+    <main className="flex min-h-screen flex-col items-center justify-center">
       <h1>Country GDP</h1>
       <CountrySelect countries={countryList}></CountrySelect>
     </main>
