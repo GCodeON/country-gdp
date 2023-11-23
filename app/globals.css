@@ -16,13 +16,24 @@
   }
 }
 
+h1 {
+  font-size: 32px;
+  padding: 0.5em;
+}
+
 .country-list {
   padding: 15px 10px;
   border: 2px solid black;
-  border-radius: 5px;
+  max-width: max-content;
 }
 
-.countries:focus {
+.countries {
+  font-size: 20px;
   outline: none;
+}
+
+.info {
+  font-size: 20px;
+  padding: 1em;
 }
 

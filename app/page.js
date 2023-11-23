@@ -15,9 +15,8 @@ export default async function Home() {
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-center p-24">
-      <div className='country-list'>
-        <CountrySelect data={countryList}></CountrySelect>
-      </div>
+      <h1>Country GDP</h1>
+      <CountrySelect countries={countryList}></CountrySelect>
     </main>
   )
 }
